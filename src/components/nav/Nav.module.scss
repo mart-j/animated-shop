@@ -1,0 +1,16 @@
+.navWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.borderBottom {
+  text-decoration-line: none;
+  border-bottom: 2px red solid;
+}
+
+.navItem {
+  color: black;
+  text-decoration-line: none;
+  font-size: 20px;
+  margin: 10px;
+}

@@ -1,0 +1,38 @@
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cartImage,
+.cartWiggle {
+  width: 43px;
+}
+
+.cartWiggle {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate();
+  }
+}
+.count {
+  font-size: 14px;
+  position: absolute;
+  left: 62%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+}
