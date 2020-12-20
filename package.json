@@ -1,6 +1,6 @@
 {
   "name": "project",
-  "homepage": "./",
+  "homepage": "http://mart-j.github.io/shop-rr",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
