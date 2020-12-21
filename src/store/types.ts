@@ -6,4 +6,8 @@ export type Product = {
   image: string;
 };
 
+export type InitialRootState = {
+  products: Product[];
+};
+
 export type Action = { type: string; products: Product[] };

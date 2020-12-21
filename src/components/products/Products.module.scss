@@ -27,6 +27,7 @@
 }
 
 .cardHeading {
+  margin: 0 20px;
   font-size: 20px;
   text-align: center;
 }
@@ -47,6 +48,14 @@
 .imageWrapper {
   display: flex;
   align-self: center;
+}
+.imageScale {
+  animation: scale .5s;
+  @keyframes scale {
+    from {transform: scale(.5);}
+    to {transform: scale(1);}
+    
+  }
 }
 .cardFooter {
   display: flex;

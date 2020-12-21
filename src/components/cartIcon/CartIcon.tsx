@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import { InitialRootState } from '../../store/types';
 import styles from './CartIcon.module.scss';
-import { InitialRootState } from '../../store/reducer';
 import cart from '../../assets/cart.png';
 
 const CartIcon = () => {

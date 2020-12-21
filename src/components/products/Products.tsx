@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectProducts } from '../../store/actions';
-import { InitialRootState } from '../../store/reducer';
+import { InitialRootState } from '../../store/types';
 import styles from './Products.module.scss';
 
 const CardList = () => {

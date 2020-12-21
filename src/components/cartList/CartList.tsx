@@ -2,7 +2,7 @@ import React from 'react';
 import { Flipped, Flipper } from 'react-flip-toolkit';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectProducts } from '../../store/actions';
-import { InitialRootState } from '../../store/reducer';
+import { InitialRootState } from '../../store/types';
 import styles from './CartList.module.scss';
 
 const CartList = () => {
