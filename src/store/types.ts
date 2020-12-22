@@ -6,8 +6,9 @@ export type Product = {
   image: string;
 };
 
-export type InitialRootState = {
+export type InitialStore = {
   products: Product[];
 };
 
 export type Action = { type: string; products: Product[] };
+export interface RootState extends InitialStore {}

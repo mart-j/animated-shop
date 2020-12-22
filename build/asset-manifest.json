@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/shop-rr/static/css/main.6ca6b555.chunk.css",
-    "main.js": "/shop-rr/static/js/main.304de61d.chunk.js",
-    "main.js.map": "/shop-rr/static/js/main.304de61d.chunk.js.map",
+    "main.css": "/shop-rr/static/css/main.425c5b67.chunk.css",
+    "main.js": "/shop-rr/static/js/main.ac9400b0.chunk.js",
+    "main.js.map": "/shop-rr/static/js/main.ac9400b0.chunk.js.map",
     "runtime-main.js": "/shop-rr/static/js/runtime-main.5b5397f5.js",
     "runtime-main.js.map": "/shop-rr/static/js/runtime-main.5b5397f5.js.map",
-    "static/js/2.1cda5f9c.chunk.js": "/shop-rr/static/js/2.1cda5f9c.chunk.js",
-    "static/js/2.1cda5f9c.chunk.js.map": "/shop-rr/static/js/2.1cda5f9c.chunk.js.map",
+    "static/js/2.fb632049.chunk.js": "/shop-rr/static/js/2.fb632049.chunk.js",
+    "static/js/2.fb632049.chunk.js.map": "/shop-rr/static/js/2.fb632049.chunk.js.map",
     "static/js/3.81d73123.chunk.js": "/shop-rr/static/js/3.81d73123.chunk.js",
     "static/js/3.81d73123.chunk.js.map": "/shop-rr/static/js/3.81d73123.chunk.js.map",
     "index.html": "/shop-rr/index.html",
-    "static/css/main.6ca6b555.chunk.css.map": "/shop-rr/static/css/main.6ca6b555.chunk.css.map",
-    "static/js/2.1cda5f9c.chunk.js.LICENSE.txt": "/shop-rr/static/js/2.1cda5f9c.chunk.js.LICENSE.txt"
+    "static/css/main.425c5b67.chunk.css.map": "/shop-rr/static/css/main.425c5b67.chunk.css.map",
+    "static/js/2.fb632049.chunk.js.LICENSE.txt": "/shop-rr/static/js/2.fb632049.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5b5397f5.js",
-    "static/js/2.1cda5f9c.chunk.js",
-    "static/css/main.6ca6b555.chunk.css",
-    "static/js/main.304de61d.chunk.js"
+    "static/js/2.fb632049.chunk.js",
+    "static/css/main.425c5b67.chunk.css",
+    "static/js/main.ac9400b0.chunk.js"
   ]
 }

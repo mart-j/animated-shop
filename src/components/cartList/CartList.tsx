@@ -2,11 +2,11 @@ import React from 'react';
 import { Flipped, Flipper } from 'react-flip-toolkit';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectProducts } from '../../store/actions';
-import { InitialRootState } from '../../store/types';
+import { RootState } from '../../store/types';
 import styles from './CartList.module.scss';
 
 const CartList = () => {
-  const products = useSelector((state: InitialRootState) => state.products);
+  const products = useSelector((state: RootState) => state.products);
   const addedProducts = products.filter((product, i) => {
     return product.selected;
   });

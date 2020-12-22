@@ -36,3 +36,49 @@
   top: 47%;
   transform: translate(-50%, -50%);
 }
+
+.cartPopup {
+  border-radius: 4px;
+  right: -50%;
+  z-index: 2;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.918);
+  box-shadow: 0px 0px 10px rgba(31, 31, 31, 0.459);
+  padding: 10px 15px 10px 15px;
+  animation: scrollDown 1.6s linear;
+  @keyframes scrollDown {
+    from {
+      max-height: 0;
+    }
+    to {
+      max-height: 100vh;
+    }
+  }
+}
+.cart:hover .cartPopup {
+  display: flex;
+}
+
+.productWrapper {
+  background-color: rgba(121, 121, 121, 0.377);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px 50px;
+  color: rgb(0, 82, 78);
+}
+.productWrapper:last-child {
+  margin-bottom: 0;
+}
+
+.product {
+  margin-right: 10px;
+}
+
+.totalPrice {
+  margin-right: 10px;
+  text-align: right;
+}

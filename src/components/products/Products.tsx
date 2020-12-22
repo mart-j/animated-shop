@@ -2,12 +2,12 @@ import React from 'react';
 import classNames from 'classnames';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectProducts } from '../../store/actions';
-import { InitialRootState } from '../../store/types';
+import { RootState } from '../../store/types';
 import styles from './Products.module.scss';
 
 const CardList = () => {
   const dispatch = useDispatch();
-  const products = useSelector((state: InitialRootState) => state.products);
+  const products = useSelector((state: RootState) => state.products);
 
   const handler = (i: number) => {
     const newProducts = [...products];
