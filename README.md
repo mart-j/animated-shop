@@ -1,2 +1,2 @@
-# shop-rr
-https://mart-j.github.io/shop-rr/
+# Animated Shop
+https://mart-j.github.io/animated-shop/
